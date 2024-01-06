@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
             <h3 class="nav-title"><span class="text-primary">B</span>adar</h3>
             <ul>
@@ -19,12 +19,125 @@
                 <li><button class="btn-primary">Hire Me</button></li>
             </ul>
         </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="banner-greeting">Hi, I am</h3>
+                <h1 class="banner-title">Badar Hossain</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatum quis cupiditate consectetur, ipsam voluptas molestias natus provident sint dolorum.</p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+
+            </div>
+            <img src="resized Badar.png" alt="Badar" class="profile-picture">
+        </div>
     </header>
     <main>
+        <section class="about">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aspernatur provident dicta, possimus ducimus non, sunt recusandae beatae excepturi exercitationem aut quae ipsa iste quaerat impedit doloremque quod nemo suscipit.</p>
+            <div class="about-info-container">
+                <div class="about-info">
+                    <h4 class="info-title">Name:</h4>
+                    <p class="info-description">Badar Hossain</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Email:</h4>
+                    <p class="info-description">badar12041@gmail.com</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Date Of Birth</h4>
+                    <p class="info-description">8th october 2003</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">From:</h4>
+                    <p class="info-description">Sylhet, Bangladesh</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- What I do section -->
+        <section >
+            <h3 class="section-title">What I do</h3>
+            <p id="What-i-do-description" class="section-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga repellendus ullam officia sunt dolorem quaerat aut eligendi hic consequuntur officiis.
+            </p>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="js.png" alt="Javascript">
+                    <h3 class="skill">Vanilla Javascript</h3>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa ratione dolorem perspiciatis molestiae illo.</p>
+                </div>
+                <div class="skill">
+                    <img src="react.png" alt="React">
+                    <h3 class="skill">React</h3>
+                    <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laborum deleniti nobis qui odio repudiandae?</p>
+                </div>
+                <div class="skill">
+                    <img src="nodejs.png" alt="Node.Js">
+                    <h3 class="skill">Node.Js</h3>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perferendis, eos nemo ratione magni provident?</p>
+                </div>
+                <div class="skill">
+                    <img src="mongo.png" alt="MongoDB">
+                    <h3 class="skill">MongoDB</h3>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi aperiam facilis ipsum! Molestiae, eveniet.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume section -->
+        <section>
+            <h3 class="section-title">A summary of My Resume</h3>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">
+                            Bachelors In Computer Science and Engineering
+                        </h2>
+                        <h3 class="resume-item-institute">Leading University 2026</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, iste!</p>
+                    </div>
+
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">
+                            Junior Full Stack Developer
+                        </h2>
+                        <h3 class="resume-item-institute">Kalisto Tech</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, iste!</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="download-cv">
+                <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="footer-column">
+            <h3 class="section-title">Lets Connect</h3>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, aliquid?
+            </p>
+            <div class="social-links">
+                <a href=""><img src="facebook.png" alt="Facebook"></a>
+                <a href=""><img src="insta.png" alt="Instagram"></a>
+                <a href=""><img src="twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Contact Me</h3>
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="email" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+            </form>
+        </div>
     </footer>
 </body>
 </html>
